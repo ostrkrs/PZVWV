@@ -1,0 +1,173 @@
+module Base
+{
+	imports    
+	{
+		Base
+	}
+
+    model ShotgunExtended
+	{
+		mesh = weapons/firearm/ShotgunExtended,
+		texture = weapons/firearm/ShotgunsMaterial,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -90.0000 0.0000 180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0500 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1540 -0.0410,
+			rotate = 10.0000 0.0000 0.0000,
+			scale = 1.13,
+		}
+
+		attachment world
+		{
+			offset = 0.0158 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0 180.0000,
+		}
+	}
+
+    model ShotgunSemi
+	{
+		mesh = weapons/firearm/ShotgunSemi,
+		texture = weapons/firearm/ShotgunsMaterial,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -90.0000 0.0000 180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0500 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1540 -0.0410,
+			rotate = 10.0000 0.0000 0.0000,
+			scale = 1.13,
+		}
+
+		attachment world
+		{
+			offset = 0.0158 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0 180.0000,
+		}
+	}
+
+    model ShotgunSemiExtended
+	{
+		mesh = weapons/firearm/ShotgunSemiExtended,
+		texture = weapons/firearm/ShotgunsMaterial,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -90.0000 0.0000 180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0500 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1540 -0.0410,
+			rotate = 10.0000 0.0000 0.0000,
+			scale = 1.13,
+		}
+
+		attachment world
+		{
+			offset = 0.0158 0.1660 0.0000,
+			rotate = -180.0000 1.0000 -180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4700 0.0300,
+			rotate = -180.0000 0.0000 -180.0000,
+		}
+
+		attachment Bip01_Prop2
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 180.0000 0.0 180.0000,
+		}
+	}
+
+    model ShotgunSemiSawnoff
+	{
+		mesh = weapons/firearm/ShotgunSemiSawnoff,
+		texture = weapons/firearm/ShotgunsMaterial,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3200 0.0300,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0500 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = -0.0010 0.1090 0.0450,
+			rotate = 0.0000 6.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1540 -0.0410,
+			rotate = 10.0000 0.0000 0.0000,
+			scale = 1.13,
+		}
+
+		attachment world
+		{
+			offset = 0.0152 0.1000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+}

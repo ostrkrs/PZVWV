@@ -1,0 +1,30 @@
+module Base
+{
+	imports    
+	{
+		Base
+	}
+
+	craftRecipe SawOffShotgunSemi
+	{
+		timedAction = SawOffShotgun,
+		Time = 200,
+		OnCreate = Recipe.OnCreate.SawOffShotgunSemi,
+		ToolTip = Tooltip_Recipe_NeedSawMetal,
+		Tags = InHandCraft,
+		category = Weaponry,
+		inputs
+		{
+			item 1 tags[MetalSaw;SmallSaw] mode:keep flags[Prop1;MayDegrade],
+			item 1 [Base.ShotgunSemi] flags[Prop2;InheritCondition;InheritAmmunition] mappers[shotgunType],
+		}
+		outputs
+		{
+			item 1 mapper:shotgunType,
+		}
+		itemMapper shotgunType
+		{
+			Base.ShotgunSemiSawnoff = Base.ShotgunSemi,
+		}
+	}
+}
