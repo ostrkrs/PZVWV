@@ -1,6 +1,7 @@
 # PZVWV
 Vanilla Weapons Variety (VWV) is a taste-of-vanillish firearms expansion for the game Project Zomboid!
 
+<img width="1080" height="864" alt="showcase" src="https://github.com/user-attachments/assets/ce29d024-0b13-472c-b4fa-36de36a4e4d1" />
 
 ## Main information
 Additions:
