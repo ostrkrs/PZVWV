@@ -5,7 +5,31 @@ module Base
 		Base
 	}
 
-    model ShotgunExtended
+	model ShotgunDoubleBarrelSawn
+	{
+		mesh = Weapons/Firearm/ShotgunDoubleBarrelSawn,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3230 0.0330,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1535 -0.0420,
+			rotate = 10.0000 0.0000 0.0000,
+			scale = 1.13,
+		}
+
+		attachment world
+		{
+			offset = 0.0143 0.2000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+
+	model ShotgunExtended
 	{
 		mesh = weapons/firearm/ShotgunExtended,
 		texture = weapons/firearm/ShotgunsMaterial,
@@ -48,7 +72,7 @@ module Base
 		}
 	}
 
-    model ShotgunSemi
+	model ShotgunSemi
 	{
 		mesh = weapons/firearm/ShotgunSemi,
 		texture = weapons/firearm/ShotgunsMaterial,
@@ -91,7 +115,7 @@ module Base
 		}
 	}
 
-    model ShotgunSemiExtended
+	model ShotgunSemiExtended
 	{
 		mesh = weapons/firearm/ShotgunSemiExtended,
 		texture = weapons/firearm/ShotgunsMaterial,
@@ -134,7 +158,7 @@ module Base
 		}
 	}
 
-    model ShotgunSemiSawnoff
+	model ShotgunSemiSawnoff
 	{
 		mesh = weapons/firearm/ShotgunSemiSawnoff,
 		texture = weapons/firearm/ShotgunsMaterial,

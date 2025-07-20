@@ -3,7 +3,7 @@ TweakItem("Base.Shotgun","MaxAmmo", "4");
 --Sawn-off JS-2000
 TweakItem("Base.ShotgunSawnoff","MaxAmmo", "4");
 --Sawn-off double-barrel shotgun
-TweakItem("Base.DoubleBarrelShotgunSawnoff","ModelWeaponPart,", "RecoilPad RecoilPad recoilpad recoilpad");
+TweakItem("Base.DoubleBarrelShotgunSawnoff","ModelWeaponPart", "RecoilPad RecoilPad recoilpad recoilpad");
 TweakItem("Base.DoubleBarrelShotgunSawnoff","RecoilDelay", "20")
 TweakItem("Base.DoubleBarrelShotgunSawnoff","ReloadTime ", "30")
 --Double-barrel shotgun

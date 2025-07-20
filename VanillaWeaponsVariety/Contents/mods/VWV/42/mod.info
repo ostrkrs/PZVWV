@@ -1,7 +1,8 @@
 name=Vanilla Weapons Variety - Ranged
 description=Adds a few different versions of the existing vanilla firearms.
-id=VWVR
-url=https://github.com/ostrkrs/PZVWV
 poster=poster.png
 poster=showcase.png
 icon=icon.png
+id=VWVR
+require=\NepEasyDistro
+url=https://github.com/ostrkrs/PZVWV
