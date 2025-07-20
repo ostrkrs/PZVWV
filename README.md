@@ -15,5 +15,4 @@ Mechanic and balance tweaks:
 4. JS-2000 and sawed-off JS-2000's ammo capacity reduced to 4+1.
 
 Known issues:
-1. Recoil pads attached to the sawn-off double barrel shotgun appears to be invisible;
-2. Sawing JS-1000's barrel off destroys attached weapon modifications.
+1. Sawing JS-1000's barrel off destroys attached weapon modifications.
