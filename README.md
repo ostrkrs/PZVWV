@@ -6,7 +6,7 @@ Vanilla Weapons Variety (VWV) is a taste-of-vanillish firearms expansion for the
 ## Main information
 Additions:
 1. JS-2100, an extended version of JS-2000;
-2. JS-1' semi-auto shotgun series! A standard JS-1000 and an extended JS-1100. JS-1000 can be sawn off.
+2. JS-1000 semi-auto shotgun series! A standard JS-1000 and an extended JS-1100. JS-1000 can be sawn off.
 
 Mechanic and balance tweaks:
 1. Decreased delay between shots of the double-barreled shotgun;
